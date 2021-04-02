@@ -774,6 +774,7 @@ input:focus {
 /* fv-watch-area-css-start  */
 .fv-watch-area {
     padding: 40px 20px;
+    margin-bottom: 80px;
 }
 
 .fv-watch-area .header h3 {
@@ -865,6 +866,7 @@ input:focus {
 
 .add-scan-watch-area {
     padding: 0 30px;
+    margin-bottom: 120px;
 }
 
 .small-bar {
@@ -917,7 +919,7 @@ input:focus {
 }
 
 .or-area span {
-    display: inline-block;
+    display: block;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -928,15 +930,71 @@ input:focus {
 .or-area span:after{
     position: absolute;
     content: "";
-    width: 45%;
+    width: 43%;
     left: 0;
-    top: 0;
+    top: 11px;
     background: rgba(0, 0, 0, 0.4);
     height: 1px;
 }
 
+.or-area span:before{
+    position: absolute;
+    content: "";
+    width: 43%;
+    right: 0;
+    top: 11px;
+    background: rgba(0, 0, 0, 0.4);
+    height: 1px;
+}
+.add-scan-watch-wrapper  .input-list{
+    text-align: center;
+}
+
+.add-scan-watch-wrapper  .input-list label{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(36, 47, 53, 0.6);
+    display:block;
+
+}
+
+.add-scan-watch-wrapper  .input-list input {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;    
+    color: #8F8E94;
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #000000;
+}
+
+.add-scan-watch-wrapper  .input-list .input-item label span {
+    color: #F39237;
+    font-size: 20px;
+}
+
+.add-scan-watch-wrapper  .input-list .input-item{
+    margin: 50px 0;
+}
+
+.add-scan-watch-wrapper .image-upload {
+    text-align: center;
+}
+.add-scan-watch-wrapper .image-upload  img{
+    display: inline-block;
+    width: 80px;
+}
 
 
+.add-btn {
+    margin: 40px 0;
+}
 
 
 /* add-scan-watch-area-end  */

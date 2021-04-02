@@ -377,7 +377,7 @@ input:focus {
     signup page start
 ==================================*/
 
-.signup-button  {
+.signup-button {
     padding-bottom: 20px;
 }
 
@@ -408,7 +408,7 @@ input:focus {
     padding-top: 20px;
 }
 
-.my-watch-bar span {   
+.my-watch-bar span {
     height: 5px;
     background: #EAE7E7;
     display: block;
@@ -443,7 +443,7 @@ input:focus {
 }
 
 .my-watch-heading a:hover {
-    background-color:  #F39237;
+    background-color: #F39237;
     color: #fff;
 }
 
@@ -544,7 +544,7 @@ input:focus {
     border: 1px solid #fff;
     border-radius: 6px;
     padding: 4px 18px;
-    background: rgba(82, 82, 82,.30);
+    background: rgba(82, 82, 82, .30);
     transition: all .2s ease;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
@@ -616,7 +616,7 @@ input:focus {
     display: inline-block;
     width: 20px;
     position: relative;
-    left: -40px;   
+    left: -40px;
 }
 
 .my-watch-insurance {
@@ -686,7 +686,7 @@ input:focus {
     display: inline-block;
 }
 
-.fixed-wrapper ul li:nth-child(2) a  img {
+.fixed-wrapper ul li:nth-child(2) a img {
     display: inline-block;
     margin-right: 5px;
 }
@@ -734,7 +734,7 @@ input:focus {
 
 /* first-visit-mesuare-css-start  */
 
-.first-visit{
+.first-visit {
     background-image: url(img/first-visit.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -927,7 +927,8 @@ input:focus {
     color: rgba(36, 47, 53, 0.6);
     position: relative;
 }
-.or-area span:after{
+
+.or-area span:after {
     position: absolute;
     content: "";
     width: 43%;
@@ -937,7 +938,7 @@ input:focus {
     height: 1px;
 }
 
-.or-area span:before{
+.or-area span:before {
     position: absolute;
     content: "";
     width: 43%;
@@ -946,47 +947,49 @@ input:focus {
     background: rgba(0, 0, 0, 0.4);
     height: 1px;
 }
-.add-scan-watch-wrapper  .input-list{
+
+.add-scan-watch-wrapper .input-list {
     text-align: center;
 }
 
-.add-scan-watch-wrapper  .input-list label{
+.add-scan-watch-wrapper .input-list label {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: rgba(36, 47, 53, 0.6);
-    display:block;
+    display: block;
 
 }
 
-.add-scan-watch-wrapper  .input-list input {
+.add-scan-watch-wrapper .input-list input {
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    text-align: center;    
+    text-align: center;
     color: #8F8E94;
     display: block;
     width: 100%;
     padding: 5px 20px;
-    border:none;
-    outline:none;
+    border: none;
+    outline: none;
     border-bottom: 1px solid #000000;
 }
 
-.add-scan-watch-wrapper  .input-list .input-item label span {
+.add-scan-watch-wrapper .input-list .input-item label span {
     color: #F39237;
     font-size: 20px;
 }
 
-.add-scan-watch-wrapper  .input-list .input-item{
+.add-scan-watch-wrapper .input-list .input-item {
     margin: 50px 0;
 }
 
 .add-scan-watch-wrapper .image-upload {
     text-align: center;
 }
-.add-scan-watch-wrapper .image-upload  img{
+
+.add-scan-watch-wrapper .image-upload img {
     display: inline-block;
     width: 80px;
 }
@@ -998,3 +1001,50 @@ input:focus {
 
 
 /* add-scan-watch-area-end  */
+
+
+/* About-page-css-start  */
+
+.about-main-content {
+    padding: 40px 20px;
+    margin-bottom: 50px;
+}
+
+.about-main-content .content p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #17456A;
+}
+
+.about-btns a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #F39237;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border:1px solid #F39237;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.about-btns a img {
+    display: inline-block;
+    width: 20px;
+    margin-right: 7px;
+}
+
+
+
+
+
+
+
+
+/* About-page-css-end  */

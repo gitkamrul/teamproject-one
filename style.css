@@ -1040,11 +1040,36 @@ input:focus {
     margin-right: 7px;
 }
 
-
-
-
-
-
-
-
 /* About-page-css-end  */
+
+
+
+/* Contact-us-page-css-start  */
+.add-scan-watch.contact{
+    margin: 30px 0;
+}
+
+.add-scan-watch.contact a {
+	color: #216DF2;
+	border: 1px solid #216DF2;
+}
+.add-scan-watch.contact a img {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.buy-bear-btn.contact {
+    margin:50px 0;
+}
+
+
+.add-scan-watch-area.contact {
+    margin-bottom: 150px;
+}
+/* Contact-us-page-css-start  */
+
+
+
+
+

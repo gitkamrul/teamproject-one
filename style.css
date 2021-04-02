@@ -884,6 +884,7 @@ input:focus {
 
 .add-scan-watch {
     text-align: center;
+    margin: 20px 0;
 }
 
 .add-scan-watch a {
@@ -1026,7 +1027,7 @@ input:focus {
     display: block;
     width: 100%;
     padding: 10px 20px;
-    border:1px solid #F39237;
+    border: 1px solid #F39237;
     transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
@@ -1045,14 +1046,15 @@ input:focus {
 
 
 /* Contact-us-page-css-start  */
-.add-scan-watch.contact{
+.add-scan-watch.contact {
     margin: 30px 0;
 }
 
 .add-scan-watch.contact a {
-	color: #216DF2;
-	border: 1px solid #216DF2;
+    color: #216DF2;
+    border: 1px solid #216DF2;
 }
+
 .add-scan-watch.contact a img {
     display: inline-block;
     width: 30px;
@@ -1060,16 +1062,146 @@ input:focus {
 }
 
 .buy-bear-btn.contact {
-    margin:50px 0;
+    margin: 50px 0;
 }
 
 
 .add-scan-watch-area.contact {
     margin-bottom: 150px;
 }
+
 /* Contact-us-page-css-start  */
 
 
 
+/* profile-page-css-start  */
+.profile-main-content {
+    padding: 50px 20px;
+}
+
+.profile-main-content .profile-view {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-main-content .profile-view .img {
+    display: inline-block;
+    width: 120px;
+}
+
+.profile-main-content .profile-view ul li {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #17456A;
+    display: block;
+    margin: 15px 0;
+}
 
 
+/* email-passwword-view-start  */
+.ep-view-area {
+    margin: 10px 20px;
+    padding: 10px 0px;
+    background: #fff;
+    box-shadow: 1px 1px 5px 4px rgba(200, 177, 177, 0.2);
+    border-radius: 5px;
+}
+
+.ep-view-area .email,
+.ep-view-area .password {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.ep-view-area label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-indent: 20px;
+    color: #17456A;
+
+
+}
+
+.ep-view-area input {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #17456A;
+    display: inline-block;
+    width: 190px;
+    border: none;
+    outline: none;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+/* email-passwword-view-end  */
+
+
+
+/* profile-collection-css-start  */
+.profile-collection {
+    padding: 30px 10px;
+    margin: 30px 20px;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .5);
+    box-shadow: 1px 1px 5px 4px rgba(200, 177, 177, 0.2);
+    border-radius: 5px;
+}
+
+.profile-collection .collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-collection .text p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #17456A;
+}
+
+p.number-watch {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #17456A;
+}
+
+.profile-collection .value {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #139AE7;
+    margin-top:30px;
+    text-align: center;
+}
+
+.profile-btns-area {
+    margin:0 20px;    
+    margin-bottom: 120px;
+}
+.profile-btns-area .buy-bear-btn {
+    color: #139AE7;
+    border-color:#139AE7; ;
+}
+
+.profile-btns-area a {
+    color: #D72E2E;
+    border-color:#D72E2E; ;
+}
+
+
+
+
+/* profile-collection-css-end  */
+
+
+/* profile-page-css-start  */

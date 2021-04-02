@@ -832,12 +832,7 @@ input:focus {
 
 /* fv-watch-area-css-end  */
 
-
-
-
 /* Add-page-css-start  */
-
-
 
 /* back-to-watch-css-start  */
 .back-to-watch {
@@ -863,7 +858,6 @@ input:focus {
 /* back-to-watch-css-end  */
 
 /* add-scan-watch-area-start  */
-
 .add-scan-watch-area {
     padding: 0 30px;
     margin-bottom: 120px;
@@ -960,7 +954,6 @@ input:focus {
     text-align: center;
     color: rgba(36, 47, 53, 0.6);
     display: block;
-
 }
 
 .add-scan-watch-wrapper .input-list input {
@@ -1003,7 +996,6 @@ input:focus {
 
 
 /* About-page-css-start  */
-
 .about-main-content {
     padding: 40px 20px;
     margin-bottom: 50px;
@@ -1095,19 +1087,20 @@ input:focus {
 /* email-passwword-view-start  */
 .ep-view-area {
     margin: 10px 20px;
-    padding: 10px 0px;
+    padding: 15px 0px;
     background: #fff;
     box-shadow: 1px 1px 5px 4px rgba(200, 177, 177, 0.2);
     border-radius: 5px;
+    position: relative;
 }
 
 .ep-view-area .email,
 .ep-view-area .password {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
+    position: relative;
 }
+
+
 
 .ep-view-area label {
     font-weight: 600;
@@ -1115,6 +1108,7 @@ input:focus {
     line-height: 20px;
     text-indent: 20px;
     color: #17456A;
+    display: inline-block;
 }
 
 .ep-view-area input {
@@ -1122,12 +1116,12 @@ input:focus {
     font-size: 16px;
     line-height: 20px;
     color: #17456A;
-    display: inline-block;
     width: 190px;
     border: none;
     outline: none;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     margin-left: 5px;
+    display: inline-block;
 }
 
 /* email-passwword-view-end  */
@@ -1180,13 +1174,11 @@ p.number-watch {
 .profile-btns-area .buy-bear-btn {
     color: #139AE7;
     border-color: #139AE7;
-    ;
 }
 
 .profile-btns-area a {
     color: #D72E2E;
     border-color: #D72E2E;
-    ;
 }
 
 /* profile-collection-css-end  */
@@ -1241,13 +1233,12 @@ p.number-watch {
     width: 100%;
     padding: 7px 20px;
     border-radius: 5px;
-    border:1px solid #fff;
+    border: 1px solid #fff;
     margin-top: 30px;
-    transition:all 0.2s ease;
-    background: rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     left: 13%;
-    /*! border: 0; */
     bottom: 60px;
     width: 76%;
 }
@@ -1256,3 +1247,82 @@ p.number-watch {
 
 
 /* Watch-tips-page-css-end  */
+
+
+/* Edit-profile-page-start  */
+
+.profile-edit-content {
+    margin-left:5px;
+}
+
+.profile-edit-content input {
+    display: inline-block;
+    width:194px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #17456A;
+    border: none;
+    border-bottom: 1px solid #2EC4B6;
+    padding: 3px 10px;
+}
+
+.profile-edit-content .password input {
+    border-color: #D62E2E;
+}
+
+.profile-edit-content .password, .profile-edit-content .first-name, .profile-edit-content .last-name {
+    position: relative;
+}
+
+
+.profile-edit-content span {
+    position: absolute;
+    right: 0%;
+    bottom: 10px;
+}
+.profile-edit-content span img {
+    display: inline-block;
+    width: 15px;
+}
+
+.profile-view .img img {
+    display: inline-block;
+    width: 110px;
+}
+
+
+.ep-view-area .email-input {
+    display: inline-block;
+}
+
+
+.ep-view-area.edit-profile  input {
+    border-bottom: 1px solid #2EC4B6;
+    margin:10px 0;
+}
+.ep-view-area.edit-profile .password input{
+    width: 80px;
+}
+
+
+
+.ep-view-area.edit-profile span {
+	position: relative;
+	margin-left: -15px;
+}
+
+.edit-btn {
+    position: absolute;
+    right: 30px;
+    bottom: 35px;
+}
+
+
+.ep-view-area.edit-profile input{
+    width: 208px;
+}
+
+
+
+/* Edit-profile-page-end  */

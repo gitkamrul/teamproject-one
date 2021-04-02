@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -79,11 +80,26 @@
                <div class="img">
                   <img src="img/Add.png" alt="Image not found">
                </div>
-               <div class="content">
+               <div class="profile-edit-content">
                 <ul>
-                  <li>John</li>
-                  <li>Do</li>
-                  <li>France</li>
+                  <li>
+							<div class="first-name">
+								<input type="text" value="John">
+								<span><img src="img/check.png" alt="Imge not found"></span>
+							</div>
+						</li>
+                  <li>
+							<div class="last-name">
+								<input type="text" value="Do">
+								<span><img src="img/check.png" alt="Imge not found"></span>
+							</div>
+						</li>
+                  <li>
+							<div class="password">
+								<input type="text" value="345Rgj">
+								<span><img src="img/error.png" alt="Imge not found"></span>
+							</div>
+						</li>
                 </ul>
                </div>
             </div>
@@ -93,16 +109,25 @@
      <!-- profile-main-content-end  -->
 
      <!-- Email-pasword-view-start  -->
-     <div class="ep-view-area">
+     <div class="ep-view-area edit-profile">
         <div class="container">
            <div class="ep-view-wrapper">
               <div class="email">
                  <label for="">Email:</label>
-                 <input type="email" id="fname" name="fname" value="Johndo@example.com" readonly>
+					  <div class="email-input">
+						<input type="email" id="fname" name="fname" value="Johndo@example.com" >
+						<span><img src="img/check.png" alt="Imge not found"></span>
+					  </div>
               </div>
               <div class="password">
                  <label for="">Password:</label>
-                 <input type="text" value="*********"  readonly>
+                 <input type="text" value="*********"  >
+					  <span><img src="img/check.png" alt="Imge not found"></span>
+              </div>
+              <div class="edit-btn">
+                 <a href="#">
+                    <img src="img/edit-btn.png" alt="Image not found">
+                 </a>
               </div>
            </div>
         </div>
@@ -125,16 +150,17 @@
             </div>
             <p  class="number-watch"> Number of watches</p>
             <p class="value">Value of your collection : 2,345,400 €</p>
+
          </div>
       </div>
    </div>
    <div class="profile-btns-area">
-      <div class="container">
-         <div class="about-btns">
-            <a href="#" class="buy-bear-btn"><span><img src="img/chech-icon.png" alt="Image not found"></span>  Buy us a beer</a>
-            <a href="#">Delete Profile</a>
-         </div>
-      </div>
+		<div class="container">
+			<div class="about-btns">
+				<a href="#" class="buy-bear-btn"><span><img src="img/chech-icon.png" alt="Image not found"></span>  Buy us a beer</a>
+				<a href="#">Delete Profile</a>
+			</div>
+		</div>
    </div>
    <!-- profile-collection-end  -->
 
@@ -154,7 +180,6 @@
 		</div>
 	</div>
 	<!-- Fixed-area-start  -->
-
 
 	<!-- menu area start -->
 	<div class="menu">

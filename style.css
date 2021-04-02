@@ -995,11 +995,9 @@ input:focus {
     width: 80px;
 }
 
-
 .add-btn {
     margin: 40px 0;
 }
-
 
 /* add-scan-watch-area-end  */
 
@@ -1043,8 +1041,6 @@ input:focus {
 
 /* About-page-css-end  */
 
-
-
 /* Contact-us-page-css-start  */
 .add-scan-watch.contact {
     margin: 30px 0;
@@ -1065,14 +1061,11 @@ input:focus {
     margin: 50px 0;
 }
 
-
 .add-scan-watch-area.contact {
     margin-bottom: 150px;
 }
 
 /* Contact-us-page-css-start  */
-
-
 
 /* profile-page-css-start  */
 .profile-main-content {
@@ -1099,7 +1092,6 @@ input:focus {
     margin: 15px 0;
 }
 
-
 /* email-passwword-view-start  */
 .ep-view-area {
     margin: 10px 20px;
@@ -1123,8 +1115,6 @@ input:focus {
     line-height: 20px;
     text-indent: 20px;
     color: #17456A;
-
-
 }
 
 .ep-view-area input {
@@ -1141,8 +1131,6 @@ input:focus {
 }
 
 /* email-passwword-view-end  */
-
-
 
 /* profile-collection-css-start  */
 .profile-collection {
@@ -1180,28 +1168,91 @@ p.number-watch {
     line-height: 17px;
     text-align: center;
     color: #139AE7;
-    margin-top:30px;
+    margin-top: 30px;
     text-align: center;
 }
 
 .profile-btns-area {
-    margin:0 20px;    
+    margin: 0 20px;
     margin-bottom: 120px;
 }
+
 .profile-btns-area .buy-bear-btn {
     color: #139AE7;
-    border-color:#139AE7; ;
+    border-color: #139AE7;
+    ;
 }
 
 .profile-btns-area a {
     color: #D72E2E;
-    border-color:#D72E2E; ;
+    border-color: #D72E2E;
+    ;
 }
-
-
-
 
 /* profile-collection-css-end  */
 
 
 /* profile-page-css-start  */
+
+
+/* Watch-tips-page-css-start  */
+
+/* watch-tips-main-content-css-start */
+.watch-tips-main-content {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+.watch-tips-main-content .bg-img img {
+    display: inline-block;
+    width: 100%;
+}
+
+.watch-tips-main-content .content-item {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.watch-tips-main-content .content-item .content {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    color: #fff;
+    padding: 0px 30px;
+    height: 100%;
+}
+
+.watch-tips-main-content .content-item p {
+
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.watch-tips-main-content .content-item .read-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border:1px solid #fff;
+    margin-top: 30px;
+    transition:all 0.2s ease;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 13%;
+    /*! border: 0; */
+    bottom: 60px;
+    width: 76%;
+}
+
+/* watch-tips-main-content-css-end */
+
+
+/* Watch-tips-page-css-end  */

@@ -1389,11 +1389,98 @@ p.number-watch {
     color: #242F35;
 }
 
-
-
-
-
-
-
-
 /* Mesure-page-content-css-end */
+
+/* Sync-page-css-start  */
+
+.sync-wtach {
+    padding: 20px 25px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin: 40px 0;
+}
+
+.sync-wtach p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #242F35;
+    margin-bottom: 0;
+}
+
+.sync-wtach .time {
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    color: #17456A;
+    margin-top: 10px;
+}
+
+.sync-wtach .date {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+.mesure-main-content.sync {
+    padding: 30px 5px;
+}
+
+.sync-wtach .min-btns {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.sync-wtach .min-btns a {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #139AE7;
+    border-radius: 4px;
+    border: 1px solid #139AE7;
+    margin: 0 20px;
+    padding: 5px 15px;
+}
+
+.mesure-main-content.sync .set-btns{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mesure-main-content.sync .set-btns a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #D72E2E;
+    margin: 0 8px;
+    border:1px solid #D72E2E;
+    width: 116px;
+    padding: 4px 0;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.mesure-main-content.sync .set-btns a.validate {
+    color: #2EC4B6;
+    border-color: #2EC4B6;
+}
+
+
+
+
+
+
+
+
+
+/* Sync-page-css-end  */

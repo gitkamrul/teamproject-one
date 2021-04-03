@@ -1252,12 +1252,12 @@ p.number-watch {
 /* Edit-profile-page-start  */
 
 .profile-edit-content {
-    margin-left:5px;
+    margin-left: 5px;
 }
 
 .profile-edit-content input {
     display: inline-block;
-    width:194px;
+    width: 194px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -1271,16 +1271,18 @@ p.number-watch {
     border-color: #D62E2E;
 }
 
-.profile-edit-content .password, .profile-edit-content .first-name, .profile-edit-content .last-name {
+.profile-edit-content .password,
+.profile-edit-content .first-name,
+.profile-edit-content .last-name {
     position: relative;
 }
-
 
 .profile-edit-content span {
     position: absolute;
     right: 0%;
     bottom: 10px;
 }
+
 .profile-edit-content span img {
     display: inline-block;
     width: 15px;
@@ -1291,25 +1293,22 @@ p.number-watch {
     width: 110px;
 }
 
-
 .ep-view-area .email-input {
     display: inline-block;
 }
 
-
-.ep-view-area.edit-profile  input {
+.ep-view-area.edit-profile input {
     border-bottom: 1px solid #2EC4B6;
-    margin:10px 0;
+    margin: 10px 0;
 }
-.ep-view-area.edit-profile .password input{
+
+.ep-view-area.edit-profile .password input {
     width: 80px;
 }
 
-
-
 .ep-view-area.edit-profile span {
-	position: relative;
-	margin-left: -15px;
+    position: relative;
+    margin-left: -15px;
 }
 
 .edit-btn {
@@ -1318,11 +1317,83 @@ p.number-watch {
     bottom: 35px;
 }
 
-
-.ep-view-area.edit-profile input{
+.ep-view-area.edit-profile input {
     width: 208px;
+}
+
+/* Edit-profile-page-end  */
+
+
+/* Mesure-page-content-css-start */
+
+.mesure-main-content {
+    padding: 30px 20px;
+    margin-bottom: 65px;
+}
+
+.mesure-main-content .brand-model {
+    text-align: center;
+}
+
+.mesure-main-content .brand-model h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #242F35;
+    margin-top: 10px;
+}
+
+.mesure-main-content .brand-model img {
+    display: inline-block;
+    width: 81px;
+}
+
+.mesure-main-content .time-manage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mesure-main-content .time-manage img {
+    display: inline-block;
+    width: 180px;
+}
+
+.mesure-main-content .sync-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mesure-main-content .sync-btn a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    display: inline-block;
+    border: 1px solid #325878;
+    border-radius: 4px;
+    padding: 3px 30px;
+}
+
+.mesure-main-content .pera-content {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mesure-main-content .pera-content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #242F35;
 }
 
 
 
-/* Edit-profile-page-end  */
+
+
+
+
+
+/* Mesure-page-content-css-end */

@@ -1855,7 +1855,7 @@ p.number-watch {
     padding: 4px 15px;
     display: inline-block;
     transition: all 0.2s ease;
-    -moz-animation: transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
 }
 
@@ -1894,7 +1894,6 @@ p.number-watch {
     margin-right: 40px;
 }
 
-.day-content h4 {}
 
 .day-content h4 {
     font-size: 36px;

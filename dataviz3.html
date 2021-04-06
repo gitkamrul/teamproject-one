@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body  class=" ditaviz2">
    <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -137,12 +137,17 @@
             <div class="pending-accuracy">
                <div class="container">
                   <div class="pending-accurency-wrapper">
-                     <h4>Pending accuracy</h4>
+                     <div class="share-icon  float-right">
+                        <a href="#">
+                           <img src="img/share.png" alt="Image not   found">
+                        </a>
+                     </div>
+                     <h4>- 10  <span>s/day</span>  </h4>
                      <span class="line"></span>
-                     <p>You must wait at least 12 hours before checking back your measure.</p>
-                     <div class="pending-btns">
+                     <p>“This measure was made right after we switched time (summer time).”</p>
+                     <div class="pending-btns ">
                         <a href="#">Delete datapoint</a>
-                        <a href="#" class="float-right right">Check in 12 h</a>
+                        <a href="#" class="float-right right">Edit datapoint</a>
                      </div>
                   </div>
                </div>
@@ -173,8 +178,8 @@
                <div class="watch-wrapper">
                   <p>You wore this watch <span>47</span> days</p>
                   <div class="line"></div>
-                  <p>Click & hold to confirm you <br> wore it today ! </p>
-                  <div class="slidecontainer">
+                  <p>Click & hold to confirm you  <br> wore it today !  </p>
+                  <div class="slidecontainer diviz2">
                      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                   </div>
                   <div class="calender-plus">
@@ -337,7 +342,6 @@
 
          // chart1 slider
          $('.average-slider').owlCarousel({
-            stagePadding: 20,
             loop: true,
             margin: 20,
             center: false,

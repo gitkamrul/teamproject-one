@@ -1534,6 +1534,7 @@ p.number-watch {
     background: #FFFFFF;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
+    position: relative;
 }
 
 .card-data-area .time-btn {
@@ -1572,14 +1573,14 @@ p.number-watch {
 
 
 .chart1-line-slider-arrow span.left {
-    left: -26px;
-    bottom: 12px;
+    left: -15px;
+    bottom: 35px;
 
 }
 
 .chart1-line-slider-arrow span.right {
-    right: -22px;
-    bottom: 12px;
+    right: -15px;
+    bottom: 35px;
 }
 
 .card-data-wrapepr {
@@ -1598,8 +1599,8 @@ p.number-watch {
 }
 
 .pending-accuracy h4 {
-    font-weight: normal;
-    font-size: 26px;
+    font-weight: 500;
+    font-size: 28px;
     line-height: 34px;
     text-align: center;
     color: #17456A;
@@ -1607,6 +1608,7 @@ p.number-watch {
     padding-bottom: 8px;
     display: inline-block;
     margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .pending-accuracy p {
@@ -1619,7 +1621,7 @@ p.number-watch {
 
 .pending-accuracy .pending-btns {
     text-align: left;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .pending-accuracy .pending-btns a {
@@ -1799,6 +1801,26 @@ p.number-watch {
 .slidecontainer.diviz2 .slider::-webkit-slider-thumb{
     background: url(img/range-img2.png) no-repeat center  ;
 }
+
+.card-data-slider img {
+    display: block;
+    width: 100%;
+}
+
+.pending-accurency-wrapper h4 span {
+    color: #17456A;
+    font-size: 15px;
+}
+
+
+.ditaviz2 .pending-btns a.right {
+    color: #F39237;
+    border-color: #F39237;
+}
+.average-slider .owl-stage {
+    left: -70px;
+}
+
 
   /* range-slider-css-end */
 

@@ -1481,7 +1481,7 @@ p.number-watch {
 /* Diviz-one-page-start  */
 .diviz-one-area {
     padding: 30px 5px;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
 }
 
 
@@ -1643,6 +1643,7 @@ p.number-watch {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 5px;
 }
 
 
@@ -1654,11 +1655,12 @@ p.number-watch {
     margin-bottom: 3px;
 }
 
-.diviz-one-area .average-header  h5{
+.diviz-one-area .average-header h5 {
     font-weight: 600;
     font-size: 16px;
-    line-height: 20px;    
+    line-height: 20px;
     color: #F39237;
+    margin-bottom: 0;
 }
 
 
@@ -1667,14 +1669,124 @@ p.number-watch {
     width: 100%;
 }
 
+.average-area {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 5px 0;
+}
 
 
 
+.watch-hold {
+	background: #FFFFFF;
+	box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 20px 30px;
+    text-align: center;
+	margin: 20px 0;
+}
+
+.watch-hold p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #242F35 ;
+    margin-bottom: 0;
+}
+
+.watch-hold .line {
+    background: rgba(0, 0, 0, 0.4);
+    height: 1px;
+    width: 100px;
+    margin: 15px auto;
+
+}
+
+.watch-hold p span {
+    font-size: 20px;
+    color: #1335E7;
+    font-weight: 400;
+}
+
+.watch-hold .calender-plus {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.watch-hold .calender-plus button {
+    display: inline-block;
+    outline:none;
+    border: 10px;
+    padding: 4px 30px;
+    background: #fff;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    line-height: 15px;
+}
+.watch-hold .calender-plus button img {
+    display: inline-block;
+    width: 15px;    
+}
+.delete-watch {
+    text-align: center;
+}
+
+ .delete-watch a {
+    display: inline-block;
+    color: #D72E2E;
+    border:1px solid #D72E2E;
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 
+/* range-slider-css-start  */
 
 
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 12px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: url(img/range-img.png);
+    cursor: pointer;
+     
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(img/range-img.png) no-repeat center  ;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .slidecontainer {
+	margin: 30px 0;
+}
+
+  /* range-slider-css-end */
 
 /* peding-accurencdy-ened  */
 

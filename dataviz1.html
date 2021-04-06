@@ -98,29 +98,34 @@
                   <a href="#">Measure now</a>
                </div>
             </div>
-            <div class="card-data-area">
-               <div class="card-data-wrapepr">
-                  <div class="card-data">
-                     <div class="time-btn">
-                        <a href="#">av. + 0.3 sec</a>
-                     </div>
-                     <div class="chart-line">
-                        <div class="chart1-line-content  owl-carousel owl-theme">
-                           <div class="item">
-                              <img src="img/line-chart1.png" alt="Image not found">
+            <div class=" ">
+               <div class="card-item ">
+                  <div class="card-data-area">
+                     <div class="card-data-wrapepr">
+                        <div class="card-data">
+                           <div class="time-btn">
+                              <a href="#">av. + 0.3 sec</a>
                            </div>
-                           <div class="item">
-                              <img src="img/line-chart1.png" alt="Image not found">
+                           <div class="chart-line">
+                              <div class="chart1-line-content  owl-carousel owl-theme">
+                                 <div class="item">
+                                    <img src="img/line-chart1.png" alt="Image not found">
+                                 </div>
+                                 <div class="item">
+                                    <img src="img/line-chart1.png" alt="Image not found">
+                                 </div>
+                              </div>
+                              <div class="chart1-line-slider-arrow">
+                                 <span class="left"><i class="fas fa-chevron-left"></i></span>
+                                 <span class="right"><i class="fas fa-chevron-right"></i></span>
+                              </div>
                            </div>
-                        </div>
-                        <div class="chart1-line-slider-arrow">
-                           <span class="left"><i class="fas fa-chevron-left"></i></span>
-                           <span class="right"><i class="fas fa-chevron-right"></i></span>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
+
 
             <div class="pending-accuracy">
                <div class="container">
@@ -130,26 +135,49 @@
                      <p>You must wait at least 12 hours before checking back your measure.</p>
                      <div class="pending-btns">
                         <a href="#">Delete datapoint</a>
-                        <a href="#"class="float-right right">Check in 12 h</a>
+                        <a href="#" class="float-right right">Check in 12 h</a>
                      </div>
                   </div>
                </div>
             </div>
             <div class="average-area">
-               <div class="average-header">
-                  <div class="content">
-                  <p>Your watch versus</p>
-                  <h5>Average</h5>                     
-                  </div>
-                  <div class="share-icon">
-                     <a href="#">
-                        <img src="img/share.png" alt="Image not   found">
-                     </a>
+               <div class="average-slider owl-carousel owl-theme ">
+                  <div class="item">
+                     <div class="average-header">
+                        <div class="content">
+                           <p>Your watch versus</p>
+                           <h5>Average</h5>
+                        </div>
+                        <div class="share-icon">
+                           <a href="#">
+                              <img src="img/share.png" alt="Image not   found">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="average-content">
+                        <img src="img/line-chart2.png" alt="Image not found">
+                     </div>
                   </div>
                </div>
-               <div class="average-content">
-                  <img src="img/line-chart2.png" alt="Image not found">
+            </div>
+
+
+            <div class="watch-hold">
+               <div class="watch-wrapper">
+                  <p>You wore this watch  <span>47</span>  days</p>
+                  <div class="line"></div>
+                  <p>Click & hold to confirm you <br> wore it today ! </p>
+                  <div class="slidecontainer">
+                     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                   </div>
+                  <div class="calender-plus">
+                     <button><img src="img/calendar-plus.png" alt="Image not found"></button>
+                  </div>
                </div>
+            </div>
+
+            <div class="delete-watch">
+               <a href="#">Delete this watch</a>
             </div>
 
          </div>
@@ -259,7 +287,7 @@
       <a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
 
       <script>
-         // second slider
+         // chart1 slider
          $('.chart1-line-content').owlCarousel({
             loop: true,
             margin: 20,
@@ -298,7 +326,35 @@
             // With optional speed parameter
             // Parameters has to be in square bracket '[]'
             owl.trigger('prev.owl.carousel', [300]);
-         })
+         });
+
+         // chart1 slider
+         $('.average-slider').owlCarousel({
+            loop: true,
+            margin: 20,
+            center: false,
+            nav: false,
+            dots: false,
+            responsiveClass: true,
+            responsiveRefreshRate: true,
+            responsive: {
+               0: {
+                  items: 1
+               },
+               768: {
+                  items: 3
+               },
+               960: {
+                  items: 1
+               },
+               1200: {
+                  items: 2
+               },
+               1920: {
+                  items: 8
+               }
+            }
+         });
       </script>
 
 </body>

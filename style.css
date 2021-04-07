@@ -482,12 +482,7 @@ input:focus {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-
     height: 100%;
-    background: red;
-
-
-
 }
 
 .my-watch-block-one-heading-right-one p {
@@ -1963,6 +1958,37 @@ p.number-watch {
 /* result-page-css-end  */
 
 
-
-
 /* Diviz-one-page-end  */
+
+
+/* My-watch-page-css-start  */
+
+.my-watch-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-watch-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.my-watch-header  .right a {
+    text-decoration:none;
+    text-align: center ;
+    display: inline-block;
+    color: #F39237;
+    border:1px solid #F39237;
+    padding: 5px 30px ;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* My-watch-page-css-end  */

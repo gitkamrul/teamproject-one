@@ -2318,6 +2318,7 @@ p.number-watch {
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
+
 /* eshop-hero-css-end  */
 
 /* libary-area-css-start */
@@ -2342,11 +2343,11 @@ p.number-watch {
     font-weight: 400;
 }
 
-.eshop-link{
+.eshop-link {
     margin: 20px 0;
 }
 
-.eshop-link  a {
+.eshop-link a {
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
@@ -2368,9 +2369,10 @@ p.number-watch {
     opacity: 0.6;
 }
 
-.library-contnet{
+.library-contnet {
     padding: 100px 0;
 }
+
 .library-contnet .img {
     text-align: center;
 }
@@ -2379,6 +2381,7 @@ p.number-watch {
     display: inline-block;
     width: 100%
 }
+
 .library-contnet .img2 {
     margin-top: 70px;
 }
@@ -2400,38 +2403,171 @@ p.number-watch {
 .bus-header {
     padding: 15px 0;
 }
+
 .bus-header-wrapper {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .bus-header-wrapper .left img {
     display: inline-block;
-    width:30px;
+    width: 30px;
 }
 
-.bus-header-wrapper .right button{
-    outline:none;
-    border:none;
+.bus-header-wrapper .right button {
+    outline: none;
+    border: none;
     color: #1B2733;
-    background:#F2F2F2;
-    border-radius:5px;
+    background: #F2F2F2;
+    border-radius: 5px;
     display: inline-block;
     padding: 7px 15px;
     font-weight: 500;
-    font-size:15px;
+    font-size: 15px;
     transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
-    
 }
 
+
+/* support-area-start  */
+.support-area {
+    margin: 50px 0px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding: 20px 15px;
+    padding-top: 0;
+}
+
+.support-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.support-tab .tablinks {
+    outline: none;
+    border: none;
+    display: block;
+    width: 50%;
+    color: #0d0c22;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 10px;
+    background: #F9F9F9;
+    border: 1px solid #E5E5E5;
+    position: relative;
+
+}
+
+.support-tab .tablinks.active:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #FF813E;
+    left: 0;
+    bottom: 0;
+}
+
+.support-tab .tablinks span {
+    margin-right: 5px;
+}
+
+.support-tab .tablinks.active {
+    color: #FF813E;
+    background: #fff;
+}
+
+.support-area .support {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.support-area .support h5 {
+    color: #222;
+    font-size: 18px;
+}
+
+.support-area .support h4 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.support-area .support p {
+    color: #717171;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.support-area .support-list ul li {
+    display: block;
+    padding-left: 40px;
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.support-area .support-list ul li::before {
+    content: "";
+    position: absolute;
+    background: url(img/icon_custom.webp);
+    background-size: 20px;
+    left: 0;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.support-area .join-btn {
+    margin-top: 30px;
+}
+
+.support-area .join-btn a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background: #FE803E;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 36px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+}
+
+.support-area .join-btn a:hover {
+    background: #FD6718;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* support-area-end  */
 
 
 /* toolwatch-team-start  */
 
-.toolwatch-team{
+.toolwatch-team {
     text-align: center;
 }
 
@@ -2451,18 +2587,18 @@ p.number-watch {
 }
 
 .toolwatch-team button {
-    outline:none;
+    outline: none;
     border: none;
     display: inline-block;
     padding: 10px 15px;
     color: #717171;
-    font-weight:400;
+    font-weight: 400;
     font-size: 14px;
     border-radius: 5px;
     margin-top: 10px;
 }
 
-.toolwatch-team button  span {
+.toolwatch-team button span {
     margin-right: 10px;
     color: #222;
 }
@@ -2470,31 +2606,114 @@ p.number-watch {
 .bus-main-contnent .share-freinds {
     text-align: center;
     padding: 20px 0;
-    }
+}
 
- .bus-main-contnent  .share-freinds .powered {
-     display: block;
- }
-
-
-
- /* goal-area-statt  */
- /* .goal-area  .progress{
-     background:#FE803E;
-
- } */
-
- .goal-area .progress-bar{
-     background-color: #FE803E;
-     ;
- }
+.bus-main-contnent .share-freinds .powered {
+    display: block;
+}
 
 
 
- /* helping-watch-start  */
 
- .helping-content p
+/* helping-watch-start  */
+.helping-watch {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    padding: 30px 15px;
 
+    border: 2px solid #ECECEC;
+    border-radius: 6px;
+}
+
+.helping-content {
+    text-align: center;
+}
+
+.helping-content p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px
+}
+
+.helping-link {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+}
+
+.helping-link img {
+    display: inline-block;
+    width: 40px;
+}
+
+/* goal-area-start  */
+
+.goal-area {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    padding: 30px 15px;
+    border: 2px solid #ECECEC;
+    border-radius: 6px;
+}
+
+.goal-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #070707;
+}
+
+.goal-content p {
+    color:#070707;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.goal-content {
+    padding: 10px 15px ;
+}
+
+.goal-content p span {
+    font-weight: 600;
+}
+
+
+
+.goal-area  .progress{
+     background:#FFF2EB;
+     position: relative;
+}
+
+.goal-area .progress-bar {
+    background-color: #FE803E;
+    
+}
+
+
+.goal-area  h5 {
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.goal-area .progress-count{
+    position: relative;
+}
+
+.goal-area .progress-count:after{
+    content: "";
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #555;
+    left: 0;
+}
+
+
+
+/* helping-watch-start  */
 
 /* buy-us-bear-end  */
-

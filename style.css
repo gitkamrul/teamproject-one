@@ -1955,6 +1955,7 @@ p.number-watch {
     color: #242F35;
     font-weight: 300;
 }
+
 /* result-page-css-end  */
 
 
@@ -1974,13 +1975,13 @@ p.number-watch {
     font-weight: 600;
 }
 
-.my-watch-header  .right a {
-    text-decoration:none;
-    text-align: center ;
+.my-watch-header .right a {
+    text-decoration: none;
+    text-align: center;
     display: inline-block;
     color: #F39237;
-    border:1px solid #F39237;
-    padding: 5px 30px ;
+    border: 1px solid #F39237;
+    padding: 5px 30px;
     font-weight: 600;
     border-radius: 5px;
     font-size: 12px;
@@ -1992,29 +1993,31 @@ p.number-watch {
 /* hour-page-css-start  */
 /* clock-css-start  */
 
-.clock{
+.clock {
     width: 230px;
     height: 230px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background:url(img/clock-img.png);    
+    background: url(img/clock-img.png);
     background-size: cover;
     display: flex;
     box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.5);
     margin: 30px auto;
 }
 
-.clock::before{
-    content:"";
+.clock::before {
+    content: "";
     position: absolute;
     width: 10px;
     height: 10px;
     background: #818181;
     border-radius: 50%;
     z-index: 10000;
-}.clock::after{
-    content:"";
+}
+
+.clock::after {
+    content: "";
     position: absolute;
     width: 4px;
     height: 4px;
@@ -2028,29 +2031,36 @@ p.number-watch {
 .clock .sec {
     position: absolute;
 }
-.clock .hour , .hr {
-    width:160px;
+
+.clock .hour,
+.hr {
+    width: 160px;
     height: 160px;
 }
 
-.clock .min , .mn {
-    width:180px;
+.clock .min,
+.mn {
+    width: 180px;
     height: 180px;
 }
 
-.clock .sec , .sc {
+.clock .sec,
+.sc {
     height: 200px;
     width: 201px;
-    
+
 }
 
-.hr , .mn , .sc {
+.hr,
+.mn,
+.sc {
     display: flex;
     justify-content: center;
     border-radius: 50%;
     position: absolute;
 }
-.hr:before{
+
+.hr:before {
     content: "";
     position: absolute;
     width: 6px;
@@ -2059,7 +2069,8 @@ p.number-watch {
     z-index: 10;
     border-radius: 6px 6px 0 0;
 }
-.mn:before{
+
+.mn:before {
     content: "";
     position: absolute;
     width: 4px;
@@ -2068,7 +2079,8 @@ p.number-watch {
     z-index: 11;
     border-radius: 6px 6px 0 0;
 }
-.sc:before{
+
+.sc:before {
     content: "";
     position: absolute;
     width: 2px;
@@ -2081,96 +2093,307 @@ p.number-watch {
 
 .hour-content {
     text-align: center;
-    margin-top: 10px ;
+    margin-top: 10px;
 }
 
 .hour-content-area {
-	margin-bottom: 120px;
+    margin-bottom: 120px;
 }
 
-.hour-header .automic-time  .time {
+.hour-header .automic-time .time {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hour-header .automic-time  .clock-time  h2{
-  font-weight: 700;
-  font-size: 60px;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
+.hour-header .automic-time .clock-time h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hour-header .time .am-pm h4 {
     font-size: 18px;
     font-weight: 600;
     opacity: 0.5;
-    color:#fff;
-    line-height:22px ;
+    color: #fff;
+    line-height: 22px;
 }
+
 .hour-header .time .am-pm h4.active {
- opacity: 1;
+    opacity: 1;
 }
 
 .hour-header .time .last h3 {
-   font-size: 24px;
-   font-weight: 700;
-   color: #fff;
-   font-family: 'Open Sans', sans-serif;
-   line-height: 33px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 33px;
 }
 
-.hour-header-content  .content h3 {
+.hour-header-content .content h3 {
     margin-bottom: 0;
 }
 
 .hour-header .time .last h5 {
     font-size: 14px;
     font-weight: 700;
-    color:#fff;
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
     opacity: 0.5;
 }
 
 .automic-time {
-	padding: 20px 0;
-	border-bottom: 1px solid #fff;
-	padding-bottom: 0px;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0px;
 }
+
 .automic-time .title {
     text-align: center;
 }
 
 .hour-header .leap-year {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.hour-header .leap-year  h4 {
-    font-size: 18px ;
+.hour-header .leap-year h4 {
+    font-size: 18px;
     font-weight: 700;
-    line-height:22px;
+    line-height: 22px;
     color: #fff;
 }
 
 .last {
-	text-align: center;
+    text-align: center;
 }
+
 .hour-header .leap-year .middle img {
     display: inline-block;
     width: 40px;
 }
 
 .hour-header {
-	padding: 0 20px;
+    padding: 0 20px;
 }
 
-.automic-time .title  h4{
+.automic-time .title h4 {
     font-size: 18px;
-    font-weight:600;
-    color:#fff;
+    font-weight: 600;
+    color: #fff;
 }
 
+/* Hour-page-css-end */
+
+/* Eshop-page-css-start  */
+
+.eshop-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eshop-menu-wrapper .logo img {
+    display: inline-block;
+    width: 150px;
+}
+
+.eshop-menu-wrapper .right ul li {
+    display: inline-block;
+}
+
+.eshop-menu-wrapper .right ul li a {
+    text-decoration: none;
+    display: block;
+    color: #3d4246;
+    font-size: 20px;
+    padding: 5px 0px;
+    margin-left: 20px;
+}
+
+.eshop-menu {
+    padding: 10px 0;
+}
+
+/* eshop-serach-start  */
+.eshop-search {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 12px 20px;
+    background: #fff;
+
+
+    display: none;
+}
+
+.eshop-search.active {
+    display: block;
+
+}
+
+.eshop-search .search-wrapepr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eshop-search .close-btn {
+    width: 40px;
+    text-align: center;
+}
+
+.eshop-search .search-box {
+    width: 100%;
+    position: relative;
+}
+
+.eshop-search .search-box:after {
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\f002";
+    left: 8px;
+    top: 5px;
+    font-size: 18px;
+}
+
+.eshop-search input {
+    padding: 7px 0;
+    width: 100%;
+    display: block;
+    border: 1px solid transparent;
+    color: #3d4246;
+    padding-left: 35px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.eshop-search .close-btn span {
+    font-size: 24px;
+    line-height: 37px;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+
+.eshop-search .search-box input:focus {
+    border-color: #cdcfd3;
+}
+
+
+
+
+/* eshop-hero-css-start  */
+
+.eshop-hero-area {
+    background: url(img/hero-img.webp) no-repeat center;
+    background-size: cover;
+}
+
+.eshop-hero-area .eshop-hero-content {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.eshop-hero-content h2 {
+    font-size: 28px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.eshop-hero-content p {
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* eshop-hero-css-end  */
+
+
+/* libary-area-css-start */
+.eshop-library-area {
+    padding: 50px 0;
+}
+
+
+.eshop-content-area {
+    margin-bottom: 150px;
+}
+
+.e-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d4246;
+    margin-bottom: 15px;
+}
+
+
+p {
+    color: #788188;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.eshop-link{
+    margin: 20px 0;
+}
+
+.eshop-link  a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #7796a8;
+    color: #fff;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+
+}
+
+.eshop-link:hover {
+    opacity: 0.6;
+}
+
+.library-contnet{
+    padding: 100px 0;
+}
+.library-contnet .img {
+    text-align: center;
+}
+
+.library-contnet .img img {
+    display: inline-block;
+    width: 100%
+}
+.library-contnet .img2 {
+    margin-top: 70px;
+}
+
+.handmade-contnet {
+    margin-bottom: 80px;
+}
+
+.handpicked-contnet .eshop-link {
+    margin-bottom: 0;
+}
+
+
+/* Eshop-page-css-end  */

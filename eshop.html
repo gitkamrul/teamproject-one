@@ -34,15 +34,17 @@
 
    <div class="eshop-menu">
       <div class="container">
-         <div class="logo">
-            <img src="img/logo.png" alt="Image not found">
-         </div>
-         <div class="right">
-            <ul>
-               <li><a href="#"><span><i class="fas fa-search"></i></span></a></li>
-               <li><a href="#"><span><i class="fas fa-shopping-cart"></i></span></a></li>
-               <li><a href="#"><span><i class="fas fa-bars"></i></span></a></li>
-            </ul>
+         <div class="eshop-menu-wrapper">
+            <div class="logo">
+               <img src="img/logol.png" alt="Image not found">
+            </div>
+            <div class="right">
+               <ul>
+                  <li><a id="search-btn" href="#"><span><i class="fas fa-search"></i></span></a></li>
+                  <li><a href="#"><span><i class="fas fa-shopping-cart"></i></span></a></li>
+                  <li><a href="#"><span><i class="fas fa-bars"></i></span></a></li>
+               </ul>
+            </div>
          </div>
       </div>
    </div>
@@ -103,7 +105,8 @@
                <div class="menu-items-one">
                   <p>Toolwatch</p>
                   <ul>
-                     <li><a href="#"><span><img src="img/ic5.png" alt="images not found"></span>Tips</a></li>
+                     <li><a id="search-btn" href="#"><span><img src="img/ic5.png" alt="images not found"></span>Tips</a>
+                     </li>
                      <li><a href="#"><span><img src="img/ic6.png" alt="images not found"></span>Shop</a></li>
                      <li><a href="#"><span><img src="img/ic7.png" alt="images not found"></span>Time</a></li>
                      <li><a style="color: #F39237;" href="#"><span><img src="img/ic8.png"
@@ -128,6 +131,97 @@
    </div>
    <!-- menu area end -->
 
+   <!-- eshop-header-start  -->
+   <div class="eshop-hero-area">
+      <div class="contianer">
+         <div class="eshop-hero-wrapper">
+            <div class="eshop-hero-content">
+               <h2>THE TOOLWATCH SHOP</h2>
+               <p>Handpicked watches and accessories <br> to help you taking care of your <br> mechanical watches. Because we love <br> watches.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- eshop-header-end  -->
+
+
+   <!-- library-area-start  -->
+
+   <div class="eshop-content-area">
+      <div class="container">
+         <div class="eshop-contnet-wrapper">
+            <div class="library-contnet">
+               <h3 class="e-header">The Library</h3>
+               <p>You have a bit of a thing for watches and looking for the right poster or vintage ad to decorate your walls?</p>
+               <div class="eshop-link">
+                  <a href="#"> Discover our wall art</a>
+               </div>
+               <div class="img">
+                  <img src="img/toolwatch10.png" alt="Image not found">
+               </div>
+               <div class="img  img2">
+                  <img src="img/lclock-img.webp" alt="Image not found">
+               </div>
+            </div>
+            <div class="handmade-contnet">
+               <h3 class="e-header">Handmade straps</h3>
+               <p>Crafted by hand with love in the French countryside, all our leather accessories are 100% made in France in association with a skilled and passionate craftsman.</p>
+               <div class="eshop-link">
+                  <a href="#"> View our straps</a>
+               </div>
+            </div>
+            
+            <div class="handpicked-contnet">
+               <h3 class="e-header">Handpicked vintage watches</h3>
+               <p>We've carefully handpicked some of the coolest vintage watches we came across. Not some random watches but only the one we would consider for ourselves. The one that almost hurts when preparing the shipment!</p>
+               <div class="eshop-link">
+                  <a href="#"> See what's in shop!</a>
+               </div>
+               <div class="img">
+                  <img src="img/DSC_3612_360x.webp" alt="Image not found">
+               </div>
+            </div>
+            
+            
+
+
+
+
+
+
+         </div>
+      </div>
+   </div>
+   <!-- library-area-end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- eshop-search-start  -->
+   <div class="eshop-search">
+      <div class="container">
+         <div class="search-wrapepr">
+            <div class="search-box">
+               <input type="text" id="" placeholder="Search">
+            </div>
+            <div class="close-btn">
+               <span><i class="fas fa-times"></i></span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- eshop-search-end  -->
+
 
 
    <!-- Main jQuery -->
@@ -147,6 +241,15 @@
 
    <!-- Scroll-Top button -->
    <a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
+   <script>
+      $("#search-btn").click(function () {
+         $(".eshop-search").toggleClass("active");
+      })
+      $(".close-btn").click(function () {
+         $(".eshop-search").toggleClass("active");
+      })
+   </script>
 
 </body>
 

@@ -1986,9 +1986,104 @@ p.number-watch {
     font-size: 12px;
 }
 
-
-
-
-
-
 /* My-watch-page-css-end  */
+
+
+/* hour-page-css-start  */
+/* clock-css-start  */
+
+.clock{
+    width: 230px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background:url(img/clock-img.png);    
+    background-size: cover;
+    display: flex;
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.5);
+    margin: 30px auto;
+}
+
+.clock::before{
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #818181;
+    border-radius: 50%;
+    z-index: 10000;
+}.clock::after{
+    content:"";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+    position: absolute;
+}
+.clock .hour , .hr {
+    width:160px;
+    height: 160px;
+}
+
+.clock .min , .mn {
+    width:180px;
+    height: 180px;
+}
+
+.clock .sec , .sc {
+    height: 200px;
+    width: 201px;
+    
+}
+
+.hr , .mn , .sc {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.hr:before{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 76px;
+    background: #AFAFAF;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+.mn:before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: #AFAFAF;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+}
+.sc:before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background: #4777A7;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+
+}
+
+
+.hour-content {
+    text-align: center;
+    margin-top: 10px ;
+}
+
+
+

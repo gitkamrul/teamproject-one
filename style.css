@@ -2318,15 +2318,12 @@ p.number-watch {
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
-
 /* eshop-hero-css-end  */
-
 
 /* libary-area-css-start */
 .eshop-library-area {
     padding: 50px 0;
 }
-
 
 .eshop-content-area {
     margin-bottom: 150px;
@@ -2339,8 +2336,7 @@ p.number-watch {
     margin-bottom: 15px;
 }
 
-
-p {
+.eshop-content-area p {
     color: #788188;
     font-size: 15px;
     font-weight: 400;
@@ -2395,5 +2391,110 @@ p {
     margin-bottom: 0;
 }
 
-
 /* Eshop-page-css-end  */
+
+
+
+/* bus-us-bear-start  */
+
+.bus-header {
+    padding: 15px 0;
+}
+.bus-header-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bus-header-wrapper .left img {
+    display: inline-block;
+    width:30px;
+}
+
+.bus-header-wrapper .right button{
+    outline:none;
+    border:none;
+    color: #1B2733;
+    background:#F2F2F2;
+    border-radius:5px;
+    display: inline-block;
+    padding: 7px 15px;
+    font-weight: 500;
+    font-size:15px;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    
+}
+
+
+
+/* toolwatch-team-start  */
+
+.toolwatch-team{
+    text-align: center;
+}
+
+.toolwatch-team .img {
+    margin-bottom: 20px;
+}
+
+.toolwatch-team .img img {
+    display: inline-block;
+    width: 80px;
+}
+
+.toolwatch-team h3 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.toolwatch-team button {
+    outline:none;
+    border: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #717171;
+    font-weight:400;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.toolwatch-team button  span {
+    margin-right: 10px;
+    color: #222;
+}
+
+.bus-main-contnent .share-freinds {
+    text-align: center;
+    padding: 20px 0;
+    }
+
+ .bus-main-contnent  .share-freinds .powered {
+     display: block;
+ }
+
+
+
+ /* goal-area-statt  */
+ /* .goal-area  .progress{
+     background:#FE803E;
+
+ } */
+
+ .goal-area .progress-bar{
+     background-color: #FE803E;
+     ;
+ }
+
+
+
+ /* helping-watch-start  */
+
+ .helping-content p
+
+
+/* buy-us-bear-end  */
+

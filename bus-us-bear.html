@@ -19,8 +19,13 @@
 	<!-- Include Bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap.css" />
 
-	<!-- Main StyleSheet -->
+   
+	<link rel="stylesheet" href="css/progress.css">
+
+	<!--Main StyleSheet -->
 	<link rel="stylesheet" href="style.css" />
+
+   
 
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="css/responsive.css" />
@@ -127,12 +132,9 @@
                   <h4>Goal</h4>
                   <p> <span>25.32% of $5530</span>    goal reached!</p>
 
-                  <span class="progress-count">25%</span>
-                  <div class="progress">
-                     <div class="progress-bar progress-bar-striped active" role="progressbar"
-                     aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%">
-                    
-                     </div>
+                 
+                  <div class="prog">
+                     <div class="progress_container"><div class="progress_bar tip" title="25%"></div></div>
                  
                    </div>
                    <h5>Toolwatch v.2.0</h5>
@@ -171,6 +173,10 @@
 	<!-- Main jQuery -->
 	<script src="js/jquery-3.4.1.min.js"></script>
 
+
+   <!-- tips-js-link  -->
+   <script src="js/tips.js" ></script>
+
 	<!-- Bootstrap Propper jQuery -->
 	<script src="js/popper.js"></script>
 
@@ -185,6 +191,20 @@
 
 	<!-- Scroll-Top button -->
 	<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
+   <script>
+      $("document").ready(function (){ 
+      
+      
+      var percent = $('.progress_bar').attr('title');
+      $('.progress_bar').animate({width: percent},1000);
+      
+      // activate tooltip
+          $('.tip').tipsy({gravity: 's',fade: true});      
+      
+      });     
+      
+      </script>
 
 </body>
 

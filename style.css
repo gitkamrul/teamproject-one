@@ -2655,6 +2655,7 @@ p.number-watch {
     padding: 30px 15px;
     border: 2px solid #ECECEC;
     border-radius: 6px;
+    margin-top: 20px;
 }
 
 .goal-content h4 {
@@ -2679,8 +2680,8 @@ p.number-watch {
 
 
 
-.goal-area  .progress{
-     background:#FFF2EB;
+.goal-area  .prog{
+     background:#FFF4EE;
      position: relative;
 }
 
@@ -2697,20 +2698,6 @@ p.number-watch {
     margin-top: 20px;
 }
 
-.goal-area .progress-count{
-    position: relative;
-}
-
-.goal-area .progress-count:after{
-    content: "";
-    position: absolute;
-    width: 0;
-	height: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-top: 5px solid #555;
-    left: 0;
-}
 
 
 

@@ -48,14 +48,14 @@ const mn = document.getElementById("mn");
 const sc = document.getElementById("sc");
 
 setInterval(() => {
-	let day = new Date();
-	let hh = day.getHours() * 30;
-	let mm = day.getMinutes() * deg;
-	let ss = day.getSeconds() * deg;
+	const day = new Date();
+	const hh = day.getHours() * 30;
+	const mm = day.getMinutes() * deg;
+	const ss = day.getSeconds() * deg;
 	hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
 	mn.style.transform = `rotateZ(${mm}deg)`;
 	sc.style.transform = `rotateZ(${ss}deg)`;
-}, 1000);
+},1000);
 
 
 function openCity(evt, cityName) {

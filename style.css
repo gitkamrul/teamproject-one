@@ -126,7 +126,6 @@ input:focus {
     padding: 8px 0px;
 }
 
-
 .p1hero-link-wrapper ul li span {
     display: block;
     color: #fff;
@@ -146,7 +145,6 @@ input:focus {
     border-radius: 100px;
     position: absolute;
 }
-
 /*-- p1hero-link  area end --*/
 
 
@@ -388,7 +386,6 @@ input:focus {
 .p2input-block-two {
     border-bottom: 0;
 }
-
 
 /*===================================
     signup page end
@@ -697,8 +694,6 @@ input:focus {
     margin-top: 15px;
 }
 
-
-
 /* -- fixed area end -- */
 
 /*===================================
@@ -706,29 +701,11 @@ input:focus {
 ==================================*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ========================
        Code by kamrul 
    ====================== */
 
-
-
-/* first-visit-page-css-start  */
-
 /* first-visit-mesuare-css-start  */
-
 .first-visit {
     background-image: url(img/first-visit.png);
     background-repeat: no-repeat;
@@ -763,7 +740,6 @@ input:focus {
 .fv-mesuare .content p.first-pera {
     margin-bottom: 40px;
 }
-
 /* first-visit-mesuare-css-end  */
 
 /* fv-watch-area-css-start  */
@@ -824,7 +800,6 @@ input:focus {
     background: #F39237;
     color: #fff;
 }
-
 /* fv-watch-area-css-end  */
 
 /* Add-page-css-start  */
@@ -1469,7 +1444,6 @@ p.number-watch {
     color: #2EC4B6;
     border-color: #2EC4B6;
 }
-
 /* Sync-page-css-end  */
 
 
@@ -1479,7 +1453,6 @@ p.number-watch {
     margin-bottom: 90px;
 }
 
-
 .diviz-one-area .brand-mode-area {
     display: flex;
     justify-content: space-between;
@@ -1488,7 +1461,6 @@ p.number-watch {
 .brand-mode-area .model {
     display: flex;
     justify-content: space-between;
-
 }
 
 .brand-mode-area .model img {
@@ -1750,8 +1722,6 @@ p.number-watch {
 
 
 /* range-slider-css-start  */
-
-
 .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -1819,15 +1789,11 @@ p.number-watch {
 .average-slider .owl-stage {
     left: -70px;
 }
-
 /* range-slider-css-end */
 
 /* peding-accurencdy-ened  */
 
-
-
 /* result-page-css-start  */
-
 .result-page .first-visit {
     padding: 20px 0;
 }
@@ -1882,7 +1848,6 @@ p.number-watch {
     display: inline-block;
     margin-right: 20px;
     width: 20px;
-
 }
 
 .result-statistick .time-rank ul li:first-child img {
@@ -1906,7 +1871,6 @@ p.number-watch {
     text-align: center;
 }
 
-
 .repair-platform a {
     text-decoration: none;
     align-items: center;
@@ -1919,7 +1883,6 @@ p.number-watch {
     font-weight: 500;
     border-radius: 5px;
     color: #242F35;
-
 }
 
 .repair-platform h5 {
@@ -1955,7 +1918,6 @@ p.number-watch {
     color: #242F35;
     font-weight: 300;
 }
-
 /* result-page-css-end  */
 
 
@@ -1963,7 +1925,6 @@ p.number-watch {
 
 
 /* My-watch-page-css-start  */
-
 .my-watch-header {
     display: flex;
     justify-content: space-between;
@@ -2089,7 +2050,6 @@ p.number-watch {
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
-
 
 .hour-content {
     text-align: center;
@@ -2229,8 +2189,6 @@ p.number-watch {
     left: 0;
     padding: 12px 20px;
     background: #fff;
-
-
     display: none;
 }
 
@@ -2284,13 +2242,9 @@ p.number-watch {
     cursor: pointer;
 }
 
-
 .eshop-search .search-box input:focus {
     border-color: #cdcfd3;
 }
-
-
-
 
 /* eshop-hero-css-start  */
 
@@ -2318,7 +2272,6 @@ p.number-watch {
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
-
 /* eshop-hero-css-end  */
 
 /* libary-area-css-start */
@@ -2336,7 +2289,6 @@ p.number-watch {
     color: #3d4246;
     margin-bottom: 15px;
 }
-
 .eshop-content-area p {
     color: #788188;
     font-size: 15px;
@@ -2362,7 +2314,6 @@ p.number-watch {
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
-
 }
 
 .eshop-link:hover {
@@ -2399,7 +2350,6 @@ p.number-watch {
 
 
 /* bus-us-bear-start  */
-
 .bus-header {
     padding: 15px 0;
 }
@@ -2503,7 +2453,6 @@ p.number-watch {
     text-transform: uppercase;
 }
 
-
 .support-area .support-list ul li {
     display: block;
     padding-left: 40px;
@@ -2548,25 +2497,9 @@ p.number-watch {
     background: #FD6718;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* support-area-end  */
 
-
 /* toolwatch-team-start  */
-
 .toolwatch-team {
     text-align: center;
 }
@@ -2611,9 +2544,6 @@ p.number-watch {
 .bus-main-contnent .share-freinds .powered {
     display: block;
 }
-
-
-
 
 /* helping-watch-start  */
 .helping-watch {
@@ -2677,8 +2607,6 @@ p.number-watch {
 .goal-content p span {
     font-weight: 600;
 }
-
-
 
 .goal-area  .prog{
      background:#FFF4EE;
@@ -2879,27 +2807,6 @@ p.number-watch {
     text-decoration: underline;
 
 }
-
-
-
-
-
-
-
-
-
 /* share-freinds-end  */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* buy-us-bear-end  */

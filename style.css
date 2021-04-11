@@ -2690,17 +2690,216 @@ p.number-watch {
     
 }
 
-
 .goal-area  h5 {
     font-size: 18px;
     color: #222;
     font-weight: 500;
     margin-top: 20px;
 }
-
-
-
-
 /* helping-watch-start  */
+
+
+/* recent-area-css-start  */
+.recent-area {
+    padding: 20px 0;
+}
+
+.recent-title{
+    display: flex;
+    align-items: center;
+}
+
+.recent-title .img {
+    width: 20%;
+    text-align: center;
+}
+
+.recent-title .content {
+    width: 80%;
+}
+
+.recent-title .content p {
+    font-weight:500;
+    font-size:16px;
+}
+.recent-title .img img{
+    display: inline-block;
+    width: 30px;
+}
+
+.recent-title p {
+    margin-bottom: 0;
+}
+
+.content-dim{
+    max-width: 250px;
+    margin-left: auto;
+    background: #FFF9F5;
+    border-radius: 5px;
+    padding: 20px 20px;
+    border:1px solid #FCD6C2;
+    margin-top:10px
+}
+
+.recent-area .share-btn {
+    max-width: 250px;   
+     margin-left: auto;
+}
+
+.recent-area .share-btn a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #F2F2F2;
+    color: #222;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top:15px;
+}
+
+.profile-w-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    margin-top: 20px;
+    margin-left: auto;  
+
+}
+.profile-w-content  .img {
+    width: 15%;
+}
+
+.profile-w-content  .pc-text{
+    width: 85%;    
+    background: #FFF9F5;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid #FCD6C2;
+}
+.profile-w-content  .pc-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+}
+ 
+
+.profile-w-content .img img {
+    display: inline-block;
+    width: 25px;
+}
+
+.recent-content {
+	box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+	padding: 20px 15px;
+	border: 2px solid #ECECEC;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+
+.profile-w-content.c3{
+    max-width: 180px;
+    margin-top: 20px !important;
+    margin:auto;
+}
+.profile-w-content.c3 .img {
+    margin-right: 15px;
+}
+
+.recent-area .see-more-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+.recent-area .see-more-btn a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background: #F2F2F2;
+    color: #222;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.recent-area .see-more-btn a span {
+    margin-right: 10px;
+}
+
+/* recent-area-css-end  */
+
+/* share-freinds-start  */
+
+.share-freinds {
+    background: #F9F9F9;
+    padding: 20px 10px;
+    margin-top: 50px ;
+}
+
+.share-content h5 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.share-content a {
+    text-decoration: none;
+}
+
+.share-with-btn{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #707070;
+    background:#ECECEC;
+    margin-top: 15px;
+}
+
+.powered {
+    display: block;
+    color: #A4A4A4;
+    font-size: 14px;
+    margin:15px 0;
+}
+.share-freinds .img {
+    margin:15px 0;
+}
+.share-freinds .img img {
+    display: inline-block;
+    width: 150px;
+}
+
+
+.share-freinds  p {
+    font: 14px;
+    color:rgba(38,38,38,.5);
+}
+
+.share-freinds  p a {
+    display: inline-block;
+    color:rgba(38,38,38,.5);
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+/* share-freinds-end  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* buy-us-bear-end  */
